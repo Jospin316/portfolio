@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio à Jospin</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-            <h1 class="logo">EJ.</h1>
-            <ul class="list-nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="flex space-between">
+        <h1>EJ.</h1>
+        <ul class="flex gap50">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </header>
 
     <main>
-        <section class="home">
-            <div class="description">
-                <h1>Hey! I'm Eloi Jospin</h1>
-                <p>I'm a front-end developer</p>
-                <div class="link">
-                    <a href="#work" class="link-work">see my projects</a>
-                    <a href="#about" class="link-about">more about me</a>
+        <div class="flex mt200">
+            <div class="w50 box text-center">
+                <h1>Hi! I'm Jospin</h1>
+                <p class="mb20">I'm a web developer full-stack</p>
+                <!-- <a href="#" class="button mb20">Download CV</a> -->
+                <div class="socials flex gap10 justify-center">
+                    <a href="#" class="button-border flex gap5 fit">
+                        <img src="./img/github.png" alt="">
+                        github
+                    </a>
+                    <a href="#" class="button-border flex gap5 fit">
+                        <img src="./img/email.png" alt="">
+                        mail
+                    </a>
+                    <a href="#" class="button-border flex gap5 fit">
+                        <img src="./img/whatsapp.png" alt="">
+                        whatsapp
+                    </a>
+                    <a href="#" class="button-border flex gap5 fit">
+                        <img src="./img/linkedin-logo.png" alt="">
+                        linkedIn
+                    </a>
                 </div>
-
             </div>
-            <div class="maPhoto">
-                <img src="./assets/Jospin.png" alt="Eloi Jospin">
+            <div class="w50">
+                <div class="myPhoto">
+                    <img src="./img/E.jpg" alt="">
+                </div>
             </div>
-        </section>
+        </div>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>
