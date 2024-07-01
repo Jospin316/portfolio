@@ -30,7 +30,7 @@ body{
 }
 
 .gap50{
- gap: 50px;
+    gap: 50px;
 }
 
 .gap10{
@@ -49,6 +49,10 @@ body{
     margin-top: 200px;
 }
 
+.mb5{
+    margin-bottom: 5px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -61,8 +65,12 @@ body{
     width: 30%;
 }
 
-.mb20{
+.mb25{
     margin-bottom: 25px;
+}
+
+.mt100{
+    margin-top: 100px;
 }
 
 header{
@@ -74,9 +82,10 @@ header{
     padding: 30px;
     box-sizing: border-box;
     color: var(--gray);
+    position: sticky;
+    top: 0;
 }
-
-header ul{
+ul{
     list-style: none;
 }
 
@@ -89,18 +98,6 @@ main{
     width: 95%;
     margin-inline: auto;
 }
-/* .button{
-    background-color: var(--turquoise);
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 10px;
-    transition: .4s ease;
-} */
-
-/* .button:hover{
-    background-color: #fe5c4d;
-} */
-
 
 .button-border{
     background-color: #11171c;
@@ -139,6 +136,7 @@ main{
     border: 2px solid var(--turquoise);
     border-radius: 50%;
     background-color: var(--turquoise);
+    box-shadow: 1px 1px 50px rgba(255,111,97,0.3);
 }
 
 .myPhoto img{
@@ -148,8 +146,75 @@ main{
     border-radius: 50%;
 }
 
+.section{   
+    padding: 50px;
+}
 
+.section h1{
+    color: var(--gray);
+    font-size: 2.5rem;
+}
 
+.section .card{
+    height: 500px;
+    background-color: #11171c;
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+}
+
+.access{
+    height: 50px;
+    padding: 0 10px;
+}
+
+.access img{
+    width: 24px;
+}
+
+.desc,.techno {
+   padding: 10px;
+   color: var(--gray);
+}
+
+.capture img{
+    width: 100%;
+}
+
+.techno{
+    justify-content: end;
+}
+
+.techno span{
+    border: 1px dashed var(--turquoise);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.box{
+    color: var(--gray);
+}
+
+.box li{
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+.box li:nth-of-type(even){
+    background: linear-gradient(45deg,var(--turquoise),#151c21);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.drflex{
+    display: flex;
+}
+
+.icon img{
+    width: 24px;
+    aspect-ratio: 1/1;
+}
 
 
 
