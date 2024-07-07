@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --rose: #ff6f61;
+    --hoverButton:#ec5446;
+    --forText: #ecf0f1;
+    --gray: #95a5a6;
+    --mb-200:200px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #151c21;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    color: var(--forText);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--forText);
+    transition: .4s ease;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap5{
+    gap: 5px;
+}
+
+.gap50{
+    gap: 50px;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.gap100{
+    gap: 200px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.p15{
+    padding: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.rond{
+    border-radius: 50%;
+}
+
+.br10{
+    border-radius: 10px;
+}
+  
+header,footer{
+    max-width: 90%;
+    margin-inline: auto;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 5px 5px;
+    margin-bottom: var(--mb-200);
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(50px);
+    z-index: 9999;
+}
+
+.scroll-up{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    background-color: var(--rose);
+    padding: 10px;
+    z-index: 9998;
+}
+
+section{
+    max-width: 90%;
+    margin-inline: auto;
+}
+
+.logo{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.social-net{
+    width: fit-content;  
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.social-net a:hover{
+    background-color: var(--forText);
+}
+
+.description{
+    width: 60%;
+    margin-right: 100px;
+}
+.description .name,.speciality{
+    color: var(--rose);
+}
+.description .speciality{
+    font-size: 4rem;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: var(--rose);
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button:hover{
+    background-color: var(--hoverButton);
+}
+
+.myPic{
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+
+.myPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+section{
+    margin-bottom: var(--mb-200);
+}
+
+section .title{
+    font-size: 2.5rem;
+}
+section .second-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.item-skill .title-skill{
+    color: var(--rose);
+    font-size: 2rem;
+}
+
+.item-skill li img{
+    width: 32px;
+    aspect-ratio: 1/1;
+}
+
+.project-box{
+    width: 30%;
+    height: fit-content;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+}
+
+.project-box:hover{
+    rotate: .5deg;
+}
+
+.project-box .capture{
+    width: 100%;
+    height: 200px;
+}
+
+.project-box .capture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-box .project-description p{
+    color: var(--gray);
+    font-size: .85rem;
+}
+
+.project-box .technos{
+    justify-content: end;
+}
+
+.project-box .technos span{
+    padding: 5px 10px;
+    border: 1px dashed var(--rose);
+    border-radius: 20px;
+}
+
+.myContact{
+    width: 40%;
+}
+
+.myContact h1{
+    color: var(--rose);
+}
+
+.myContact p{
+    color: var(--gray);
+}   
+
+.form { 
+    width:  60%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "firstname name"
+      "email email"
+      "message message";
+}
+
+.name { grid-area: name; }
+
+.firstname { grid-area: firstname; }
+
+.email { grid-area: email; }
+
+.message { grid-area: message; }
+
+.form .contact-content,.contact-message{
+  background-color: var(--forText);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form .contact-content{
+    height: 80px;
+}
+
+.form .contact-message{
+    height: 150px;
+}
+
+.contact-content input,textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--gray);
+  height: 50%;
+  font-size: 1.15rem;
+}
+
+.contact-message textarea{
+    resize: none;
+}
+
+
+
