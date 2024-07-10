@@ -32,6 +32,16 @@ a{
     transition: .4s ease;
 }
 
+button[type="submit"]{
+    color: var(--forText);
+    transition: .4s ease;
+    background-color: var(--rose);
+    padding:10px;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
 .flex{
     display: flex;
 }
@@ -201,7 +211,7 @@ section .second-title{
 
 .project-box{
     width: 30%;
-    height: fit-content;
+    height: 500px;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     transition: .4s ease-in-out;
@@ -297,6 +307,10 @@ section .second-title{
 
 .contact-message textarea{
     resize: none;
+}
+
+label{
+    color: #151c21;    
 }
 
 footer p{
