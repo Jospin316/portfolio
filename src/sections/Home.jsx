@@ -3,7 +3,7 @@ import { imgProfil } from "./../assets";
 
 export default function Home() {
   return (
-    <section className="text-myWhite flex flex-col items-center justify-evenly text-center h-dvh">
+    <section className="flex flex-col items-center justify-evenly text-center h-dvh">
       <img
         src={imgProfil}
         alt="Jospin profile's image"

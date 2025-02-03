@@ -1,8 +1,9 @@
-import Home from "./sections/Home";
+import { Home, Projects } from "./sections";
 function App() {
   return (
     <>
       <Home />
+      <Projects />
     </>
   );
 }
