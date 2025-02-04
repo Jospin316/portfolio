@@ -11,3 +11,5 @@ export { default as postgreSQLIcon } from "./postgresql.png";
 export { default as gitIcon } from "./git.png";
 export { default as githubIcon } from "./github.png";
 export { default as solvingIcon } from "./thinking_problem.png";
+export { default as photoAbout } from "./J.jpg";
+export {default as cv} from './cv.pdf'

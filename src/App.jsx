@@ -1,10 +1,11 @@
-import { Home, Projects, Skills } from "./sections";
+import { Home, Projects, Skills, About } from "./sections";
 function App() {
   return (
     <>
       <Home />
       <Projects />
       <Skills />
+      <About />
     </>
   );
 }
