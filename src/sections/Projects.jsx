@@ -7,7 +7,7 @@ export default function Projects() {
     {
       rank: 1,
       nameOf: "My portfolio",
-      presentation: { screenhot },
+      presentation: screenhot,
       description:
         "lorem epsumrarzerzermzerkerjam  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quis similique perferendis quae quos? Fugit impedit eaque sequi! Corporis, blanditiis sed? Ratione suscipit qui, quidem excepturi consequuntur voluptates iure deserunt!",
       usedTechnos: ["ReactJS", "HTML", "CSS"],
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       rank: 2,
       nameOf: "My portfolio",
-      presentation: { screenhot },
+      presentation: screenhot,
       description:
         "lorem epsumrarzerzermzerkerjam  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quis similique perferendis quae quos? Fugit impedit eaque sequi! Corporis, blanditiis sed? Ratione suscipit qui, quidem excepturi consequuntur voluptates iure deserunt!",
       usedTechnos: ["ReactJS", "HTML", "CSS"],
@@ -23,7 +23,7 @@ export default function Projects() {
     {
       rank: 3,
       nameOf: "My portfolio",
-      presentation: { screenhot },
+      presentation: screenhot,
       description:
         "lorem epsumrarzerzermzerkerjam  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quis similique perferendis quae quos? Fugit impedit eaque sequi! Corporis, blanditiis sed? Ratione suscipit qui, quidem excepturi consequuntur voluptates iure deserunt!",
       usedTechnos: ["ReactJS", "HTML", "CSS"],

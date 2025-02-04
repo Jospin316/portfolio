@@ -22,7 +22,7 @@ export default function CardProject({
       />
       <div>
         <h2 className="text-2xl font-bold">{nameOf}</h2>
-        <p className="text-gray-400">{description}</p>
+        <p className="text-gray-400 truncate">{description}</p>
       </div>
       <div className="flex gap-1 justify-end">
         {usedTechnos.map((techno, index) => (

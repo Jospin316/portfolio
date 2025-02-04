@@ -9,7 +9,7 @@ export default function Home() {
         alt="Jospin profile's image"
         className="max-w-[220px] aspect-square object-cover rounded-2xl"
       />
-      <div>
+      <div className="p-2">
         <h2 className="font-bold text-3xl">
           Hey there!&nbsp;I'm <span className="text-myRose">Jospin</span>
         </h2>
