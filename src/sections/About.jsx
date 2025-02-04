@@ -5,7 +5,7 @@ import { Title } from "../components";
 export default function About() {
   return (
     <section className="mt-10 flex flex-col items-center text-center gap-4">
-      <Title h1={"About"} h3={"My introduction"} />
+      <Title h1={"About me"} h3={"My introduction"} />
       <div className="flex flex-col items-center text-center">
         <img
           src={photoAbout}

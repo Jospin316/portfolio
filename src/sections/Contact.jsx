@@ -17,7 +17,7 @@ export default function Contact() {
     },
   ];
   return (
-    <section className="flex flex-col items-center gap-4">
+    <section id="contact" className="flex flex-col items-center gap-4">
       <Title h1={"Contact"} h3={"Get in touch"} />
       <ul>
         {infos.map((info, index) => (

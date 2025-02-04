@@ -12,4 +12,7 @@ export { default as gitIcon } from "./git.png";
 export { default as githubIcon } from "./github.png";
 export { default as solvingIcon } from "./thinking_problem.png";
 export { default as photoAbout } from "./J.jpg";
-export {default as cv} from './cv.pdf'
+export { default as cv } from "./cv.pdf";
+export { default as linkedInIcon } from "./linkedin-dark.svg";
+export { default as github } from "./github-dark.svg";
+export { default as facebook } from "./facebook.svg";
