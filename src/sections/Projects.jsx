@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectsList } from "../components";
+import { ProjectsList, Title } from "../components";
 import { screenhot } from "./../assets";
 
 export default function Projects() {
@@ -31,10 +31,7 @@ export default function Projects() {
   ];
   return (
     <section className="flex flex-col items-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">PROJECTS</h1>
-        <h3 className="text-gray-400">My favorites projects</h3>
-      </div>
+      <Title h1={"Projects"} h3={"My favorites projects"} />
       <ProjectsList projects={my_favorites_projects} />
     </section>
   );

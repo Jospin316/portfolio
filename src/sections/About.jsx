@@ -1,13 +1,11 @@
 import React from "react";
 import { cv, photoAbout } from "../assets";
+import { Title } from "../components";
 
 export default function About() {
   return (
     <section className="mt-10 flex flex-col items-center text-center gap-4">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">ABOUT ME</h1>
-        <h3 className="text-gray-400">My introduction</h3>
-      </div>
+      <Title h1={"About"} h3={"My introduction"} />
       <div className="flex flex-col items-center text-center">
         <img
           src={photoAbout}

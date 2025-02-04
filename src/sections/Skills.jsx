@@ -12,7 +12,7 @@ import {
   tailwindIcon,
   typescriptIcon,
 } from "../assets";
-import { Skill } from "./../components";
+import { Skill, Title } from "./../components";
 
 export default function Skills() {
   const frontend_skills = [
@@ -34,10 +34,7 @@ export default function Skills() {
   ];
   return (
     <section className="mt-10 flex flex-col items-center text-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">SKILLS</h1>
-        <h3 className="text-gray-400">My technical level</h3>
-      </div>
+      <Title h1={"Skills"} h3={"My technical level"} />
       <div className="flex flex-col gap-8">
         <Skill title={"Frontend"} skills={frontend_skills} />
         <Skill title={"Backend"} skills={backend_skills} />
