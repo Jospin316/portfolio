@@ -1,4 +1,4 @@
-import { Home, Projects, Skills, About, Contact } from "./sections";
+import { Home, Projects, Skills, About, Contact, Footer } from "./sections";
 function App() {
   return (
     <>
@@ -7,6 +7,7 @@ function App() {
       <Skills />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }
