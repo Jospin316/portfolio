@@ -4,7 +4,7 @@ import { LinkSocial } from "./../components";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-evenly sm:justify-center text-center sm:text-start h-dvh sm:flex-row-reverse px-5">
+    <section className="flex flex-col items-center justify-evenly sm:justify-center text-center sm:text-start h-dvh sm:flex-row-reverse mx-10">
       <img
         src={imgProfil}
         alt="Jospin profile's image"
@@ -12,10 +12,10 @@ export default function Home() {
       />
       <div className="p-2 sm:w-1/2 flex flex-col items-center sm:items-start gap-2">
         <div>
-          <h2 className="font-bold text-4xl">
+          <h2 className="font-bold text-3xl">
             Hey there!&nbsp;I'm <span className="text-myRose">Jospin</span>
           </h2>
-          <h1 className="font-extrabold text-myRose text-6xl">
+          <h1 className="font-extrabold text-myRose text-5xl">
             Web developer.
           </h1>
         </div>

@@ -3,7 +3,7 @@ import { CardProject } from "./";
 
 export default function ProjectsList({ projects }) {
   return (
-    <div>
+    <div className="flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:justify-center px-5">
       {projects.map((project, index) => (
         <CardProject
           key={index}

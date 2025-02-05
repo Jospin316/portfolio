@@ -11,7 +11,7 @@ export default function CardProject({
     <a
       href="https://github.com"
       target="_blank"
-      className="shadow-black shadow-2xl p-4 rounded-2xl max-h-[350px] aspect-square
+      className="shadow-black shadow-2xl p-4 rounded-2xl max-h-[400px] aspect-square
     flex flex-col justify-evenly box-border duration duration-500 hover:rotate-1"
     >
       <h3 className="text-2xl font-bold">#{rank}</h3>
