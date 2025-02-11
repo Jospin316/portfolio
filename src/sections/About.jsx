@@ -4,18 +4,19 @@ import { Title } from "../components";
 
 export default function About() {
   return (
-    <section className="mt-10 flex flex-col items-center text-center gap-4 p-5">
+    <section className="mt-10 flex flex-col items-center gap-4">
       <Title h1={"About me"} h3={"My introduction"} />
-      <div className="flex flex-col items-center sm:justify-center text-center sm:flex-row lg:text-start lg:items-center sm:gap-5">
+      <div className="flex flex-col items-center gap-4 md:flex-row lg:items-start">
         <img
           src={photoAbout}
           alt="Eloi Jospin"
-          className="max-w-[250px] aspect-square object-cover rounded-2xl sm:max-w-[280px]"
+          className="max-w-[300px] object-contain rounded-sm"
         />
-        <div className="p-4 w-1/2">
-          <p className="mb-4">
-            My name is <strong>RAMINONANTENAINA Eloi Jospin</strong>, but you
-            can just call me Jospin. I am still a student at Ecole Nationale
+        <div className="flex flex-col items-center md:items-start md:pr-24 lg:pr-[200px]">
+          <p className="mb-2 text-center text-lg md:text-start md:text-xl">
+            My name is
+            <strong> RAMINONANTENAINA Eloi Jospin</strong>, but you can just
+            call me Jospin. I am still a student at Ecole Nationale
             d'informatique de Fianarantsoa in Madagascar. Passionate about web
             development, I find great satisfaction in creating innovative and
             responsive digital experiences. Outside of my studies, I enjoy
@@ -32,7 +33,7 @@ export default function About() {
             href={cv}
             download
             target="_blank"
-            className="bg-myRose px-4 py-2 rounded-md text-lg"
+            className="bg-myRose px-8 py-2 w-fit rounded-xl text-xl"
           >
             Download CV
           </a>

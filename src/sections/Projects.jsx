@@ -30,7 +30,7 @@ export default function Projects() {
     },
   ];
   return (
-    <section className="flex flex-col items-center ">
+    <section className="flex flex-col items-center">
       <Title h1={"Projects"} h3={"My favorites projects"} />
       <ProjectsList projects={my_favorites_projects} />
     </section>

@@ -35,7 +35,7 @@ export default function Skills() {
   return (
     <section className="mt-10 flex flex-col items-center text-center">
       <Title h1={"Skills"} h3={"My technical level"} />
-      <div className="flex flex-col gap-8 p-5 lg:flex-row sm:gap-24">
+      <div className="flex flex-col gap-8 p-5 md:flex-row sm:gap-24">
         <Skill title={"Frontend"} skills={frontend_skills} />
         <Skill title={"Backend"} skills={backend_skills} />
         <Skill title={"Others"} skills={others_skills} />
