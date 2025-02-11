@@ -4,22 +4,22 @@ import { LinkSocial } from "./../components";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-evenly sm:justify-center text-center sm:text-start h-dvh sm:flex-row-reverse mx-10">
+    <section className="flex flex-col items-center h-dvh justify-evenly md:flex-row-reverse">
       <img
         src={imgProfil}
         alt="Jospin profile's image"
-        className="max-w-[250px] aspect-square object-cover rounded-full sm:max-w-[350px]"
+        className="max-w-[250px] aspect-square object-cover rounded-full md:max-w-[360px]"
       />
-      <div className="p-2 sm:w-1/2 flex flex-col items-center sm:items-start gap-2">
+      <div className="text-center flex flex-col gap-2 items-center px-16 md:text-start md:items-start md:w-1/2">
         <div>
-          <h2 className="font-bold text-3xl">
+          <h2 className="text-3xl font-bold sm:text-5xl">
             Hey there!&nbsp;I'm <span className="text-myRose">Jospin</span>
           </h2>
-          <h1 className="font-extrabold text-myRose text-5xl">
+          <h1 className="font-extrabold text-myRose text-5xl sm:text-6xl">
             Web developer.
           </h1>
         </div>
-        <div className="inline-flex justify-center gap-5 items-center">
+        <div className="flex justify-center gap-5 items-center">
           <LinkSocial href="https://github.com/Jospin316" src={github} />
           <LinkSocial
             href="https://www.linkedin.com/in/eloi-jospin-2b6604319/?originalSubdomain=mg"
@@ -36,7 +36,10 @@ export default function Home() {
           ever-evolving world of web development.
         </p>
 
-        <a href="#contact" className="bg-myRose text-xl py-2 px-8 rounded-xl">
+        <a
+          href="#contact"
+          className="bg-myRose rounded-xl text-xl py-2 w-fit px-8"
+        >
           Contact me
         </a>
       </div>
