@@ -17,9 +17,9 @@ export default function Contact() {
     },
   ];
   return (
-    <section id="contact" className="flex flex-col gap-5 px-[280px]">
+    <section id="contact" className="mt-10">
       <Title h1={"Contact"} h3={"Get in touch"} />
-      <div className="flex flex-col gap-5 sm:flex-row sm:justify-between">
+      <div className="flex flex-col gap-5 items-center mt-5">
         <ul>
           {infos.map((info, index) => (
             <li key={index}>
@@ -30,14 +30,11 @@ export default function Contact() {
             </li>
           ))}
         </ul>
-        <form
-          action=""
-          className="flex flex-col gap-2 justify-between flex-1 max-w-1/2"
-        >
-          <Input label={"Name"} />
-          <Input label={"Email"} />
-          <div className="bg-myWhite flex flex-col p-3 text-black rounded-2xl">
-            <label htmlFor="forMessage" className="text-xl">
+        <form action="" className="flex flex-col gap-2 items-center">
+          <Input label="Name" type="text"/>
+          <Input label="Email" type="email" />
+          <div className="bg-myWhite flex flex-col py-1 px-3 text-mySombre rounded-lg w-full">
+            <label htmlFor="forMessage" className="text-lg">
               Text to me...
             </label>
             <textarea
@@ -47,7 +44,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-myRose py-1 text-xl rounded-2xl cursor-pointer"
+            className="bg-myRose w-fit py-1 px-8 text-lg rounded-2xl cursor-pointer"
           >
             Submit
           </button>

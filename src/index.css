@@ -3,9 +3,10 @@
 @theme {
   --color-myRose: #ff6f61;
   --color-myWhite: #ecf0f1;
+  --color-mySombre: #151c21;
 }
 body {
-  background-color: #151c21;
+  background-color: var(--color-mySombre);
   font-family: "Ubuntu", serif;
-  color: #ecf0f1;
+  color: var(--color-myWhite);
 }
